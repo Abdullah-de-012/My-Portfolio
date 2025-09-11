@@ -75,6 +75,25 @@ header{
     font-size: 1.25rem;
     margin-top: 0px;
 }
+/* About section Styles */
+.about-section{
+    margin: 50px 200px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.about-card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.about-card-container div{
+    background: #FFF;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
 /* Responsive for Mobile Device */
 @media screen and (max-width:768px) {
     .navbar{
