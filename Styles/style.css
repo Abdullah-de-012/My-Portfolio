@@ -81,6 +81,13 @@ header{
     text-align: center;
     padding: 10px 20px;
 }
+.about-section h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+.about-description{
+    font-size: 1.25rem;
+}
 
 .about-card-container{
     display: flex;
