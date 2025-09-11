@@ -98,7 +98,7 @@ header{
 .about-card-container div{
     background: #FFF;
     padding: 15px;
-    width: 200px;
+    max-width: 200px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 /* Responsive for Mobile Device */
@@ -113,7 +113,17 @@ header{
     header{
         padding:5px;
     }
-    
+    .about-section{
+        margin: 30px auto;
+    }
+    .about-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-card-container div{
+        width: 200px;
+        height: auto;
+    }
 }
 /* Responsive for Medium Device */
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -121,5 +131,20 @@ header{
         flex-direction: column-reverse;
         align-items: center;
     }
+    .about-section{
+        margin: 30px auto;
+    }
+    .about-card-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        justify-items: center;
+        
+    }
+    .about-card-container div{
+        width: 200px;
+        height: auto;
+        
+    }
+
     
 }
