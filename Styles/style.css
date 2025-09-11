@@ -23,6 +23,7 @@
     cursor: pointer;
 }
 
+
 /* Dark */
 .dark {
     color: #555;
@@ -155,6 +156,44 @@ header {
     margin-top: 10px;
     font-size: 1.2rem;
 }
+/* Footer Section Style */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    align-items: center;
+}
+.connect{
+    width: 40%;
+}
+.contact-form{
+    width: 30%;
+}
+.footer-container h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.input-area input{
+    padding: 15px;
+    border-radius: 5px;
+}
+#message-area{
+    border-radius: 5px;
+}
+.last-btn{
+    width: 30%;
+}
+.connect p{
+    margin-top: 10px;
+}
+
+
 
 /* Responsive for Mobile Device */
 @media screen and (max-width:768px) {
