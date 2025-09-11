@@ -75,3 +75,25 @@ header{
     font-size: 1.25rem;
     margin-top: 0px;
 }
+/* Responsive for Mobile Device */
+@media screen and (max-width:768px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    header{
+        padding:5px;
+    }
+    
+}
+/* Responsive for Medium Device */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+}
