@@ -21,8 +21,13 @@
   border: none;
   cursor: pointer;
 }
+/* Dark */
+.dark{
+    color: #555;
+}
 
-/* Header Section Styles */
+
+/* Header Section Navbar Styles */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -42,4 +47,31 @@ header{
     color:black;
     font-size: 1.25rem;
     margin-right:20px;
+}
+/* Header Section banner Styles */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.banner-profile-pic{
+  width: 220px;
+  border: 2px solid #FD6E0A;
+  border-radius: 50%;
+}
+.banner-greetings{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 520;
+    margin-bottom: 10px;
+
+}
+.banner-title{
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    font-size: 1.25rem;
+    margin-top: 0px;
 }
