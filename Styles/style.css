@@ -179,6 +179,14 @@ header {
         flex-direction: column;
         align-items: center;
     }
+    .skills-description{
+        width: 90%;
+    }
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 /* Responsive for Medium Device */
@@ -197,6 +205,9 @@ header {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
 
+    }
+    .skills-container{
+        gap: 20px;
     }
 
 
