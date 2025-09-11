@@ -160,7 +160,7 @@ header {
 .footer-container{
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px;
+    margin: 40px 100px 0 100px;
     align-items: center;
 }
 .connect{
@@ -226,6 +226,19 @@ header {
         align-items: center;
         gap: 20px;
     }
+    .footer-container{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .connect{
+        width: 90%;
+    }
+    .contact-form{
+        width: 90%;
+    }
+    .last-btn{
+        width: 40%;
+    }
 }
 
 /* Responsive for Medium Device */
@@ -248,7 +261,7 @@ header {
     .skills-container{
         gap: 20px;
     }
-
-
-
+    .last-btn{
+        width: 50%;
+    }
 }
