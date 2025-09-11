@@ -90,7 +90,7 @@ header {
 
 /* About section Styles */
 .about-section {
-    margin: 50px 200px;
+    margin: 200px 200px;
     text-align: center;
     padding: 10px 20px;
 }
@@ -160,7 +160,7 @@ header {
 .footer-container{
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px 0 100px;
+    margin: 200px 100px 0 100px;
     align-items: center;
 }
 .connect{
