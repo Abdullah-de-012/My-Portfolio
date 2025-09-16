@@ -55,6 +55,10 @@ header {
     font-size: 1.25rem;
     margin-right: 20px;
 }
+.banner-buttons a{
+    color: #FFF;
+    text-decoration: none;
+}
 
 /* Header Section banner Styles */
 .banner-container {
